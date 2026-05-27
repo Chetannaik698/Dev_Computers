@@ -1,0 +1,123 @@
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 16px;
+  background: linear-gradient(180deg, #0f172a 0%, #0b1124 100%);
+}
+
+.auth-card {
+  width: min(460px, 100%);
+  background: rgba(15, 23, 44, 0.96);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 24px;
+  padding: 36px;
+  box-shadow: 0 24px 70px rgba(0,0,0,0.22);
+}
+
+.auth-toggle-container {
+  display: flex;
+  gap: 0;
+  margin-bottom: 32px;
+  background: rgba(255,255,255,0.05);
+  padding: 4px;
+  border-radius: 12px;
+}
+
+.auth-toggle-btn {
+  flex: 1;
+  padding: 12px 20px;
+  border: none;
+  background: transparent;
+  color: #94a3b8;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.25s ease;
+}
+
+.auth-toggle-btn.active {
+  background: #2563eb;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+.auth-toggle-btn:hover:not(.active) {
+  color: #cbd5e1;
+}
+
+.auth-card h1 {
+  margin: 0 0 12px;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.auth-card p {
+  margin: 0 0 28px;
+  color: #94a3b8;
+  line-height: 1.5;
+}
+
+.auth-form {
+  display: grid;
+  gap: 20px;
+}
+
+.auth-form label {
+  display: grid;
+  gap: 10px;
+  color: #cbd5e1;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(148,163,184,0.2);
+  background: rgba(15, 23, 44, 0.85);
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.auth-form input:focus {
+  outline: none;
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 4px rgba(96,165,250,0.12);
+}
+
+.auth-error {
+  color: #fb7185;
+  background: rgba(251,113,133,0.1);
+  padding: 12px 14px;
+  border-radius: 12px;
+  font-size: 0.94rem;
+  border: 1px solid rgba(251,113,133,0.2);
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 14px 16px;
+  background: #2563eb;
+  border: none;
+  border-radius: 14px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 8px;
+}
+
+.auth-form button:hover {
+  background: #3b82f6;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
+}
+
+.auth-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
