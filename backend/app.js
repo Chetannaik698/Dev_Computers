@@ -13,7 +13,7 @@ const app = express();
 const corsOptions = {
   origin: [
     'https://dev-computers.vercel.app',
-    'https://www.devcomputers.shop'
+    'https://www.devcomputers.shop',
     'http://localhost:5173',
     'http://localhost:3000',
   ],
