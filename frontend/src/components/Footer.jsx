@@ -16,7 +16,7 @@ export default function Footer() {
             </div>
             <span className="footer-logo-name">Dev Computers</span>
           </Link>
-          <p>Your trusted technology partner in Bengaluru. Expert repairs, quality products, and professional CCTV installation.</p>
+          <p>Your trusted technology partner in Bhatkal. Expert repairs, quality products, and professional CCTV installation.</p>
           <div className="footer-socials">
             <a href="#" aria-label="Facebook"><i className="fa-brands fa-facebook-f"></i></a>
             <a href="#" aria-label="Instagram"><i className="fa-brands fa-instagram"></i></a>

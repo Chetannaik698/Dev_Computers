@@ -67,7 +67,7 @@ const bookings = [
     service: 'Laptop Repair',
     date: '2026-06-12',
     time: '10:00 AM',
-    address: 'Koramangala',
+    address: 'Shirali',
     status: 'pending',
   },
   {
@@ -77,7 +77,7 @@ const bookings = [
     service: 'CCTV Camera Installation',
     date: '2026-06-14',
     time: '02:00 PM',
-    address: 'Indiranagar',
+    address: 'Bhatkal Town',
     status: 'confirmed',
   },
 ];

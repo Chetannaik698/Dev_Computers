@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import './Navbar.css';
-import { PHONE, PHONE_DISPLAY } from '../data/data';
+import { PHONE, PHONE_DISPLAY, getWhatsAppLink } from '../data/data';
 import logo from '../assets/logo.png';
 import { useTheme } from '../hooks/useTheme';
 import { useAuth } from '../context/AuthContext';
@@ -195,7 +195,7 @@ export default function Navbar() {
             style={{ background: '#2563eb', color: '#fff' }}>
             <i className="fa-solid fa-phone"></i> Call Us
           </a>
-          <a href="https://wa.me/919999999999" target="_blank" rel="noreferrer" onClick={close}
+          <a href={getWhatsAppLink('Hello! I need assistance.')} target="_blank" rel="noreferrer" onClick={close}
             style={{ background: '#25d366', color: '#fff' }}>
             <i className="fa-brands fa-whatsapp"></i> WhatsApp
           </a>

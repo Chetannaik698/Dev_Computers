@@ -72,12 +72,12 @@ export default function Home() {
           <div className="hero-content">
             <div className="hero-badge">
               <i className="fa-solid fa-circle-dot"></i>
-              Bengaluru's Trusted Tech Shop
+              Bhatkal's Trusted Tech Shop
             </div>
             <h1 className="hero-title gradient-text-blue">Where Technology</h1>
             <span className="hero-title-accent gradient-text">Meets Excellence.</span>
             <p className="hero-desc">
-              Expert computer repairs, custom gaming PC builds, CCTV installations, laptop sales, and printer servicing — all under one roof in Bengaluru.
+              Expert computer repairs, custom gaming PC builds, CCTV installations, laptop sales, and printer servicing — all under one roof in Bhatkal.
             </p>
             <div className="hero-ctas">
               <a href={`tel:${PHONE}`} className="btn-primary">

@@ -7,11 +7,11 @@ import logo from '../assets/logo.png';
 
 /* ── Seed data ── */
 const seedBookings = [
-  { id: 1, name: 'Rahul Sharma', phone: '9876543210', service: 'CCTV Camera Installation', date: '2024-12-20', time: '10:00 AM – 11:00 AM', status: 'confirmed', address: 'Koramangala' },
-  { id: 2, name: 'Priya Nair', phone: '9123456789', service: 'Laptop Service & Sales', date: '2024-12-21', time: '2:00 PM – 3:00 PM', status: 'pending', address: 'Indiranagar' },
-  { id: 3, name: 'Amit Patel', phone: '9988776655', service: 'Computer Service & Gaming PC Build', date: '2024-12-22', time: '11:00 AM – 12:00 PM', status: 'done', address: 'BTM Layout' },
-  { id: 4, name: 'Sunita Reddy', phone: '9871234560', service: 'Printer Service & Cartridge Refilling', date: '2024-12-23', time: '3:00 PM – 4:00 PM', status: 'pending', address: 'Jayanagar' },
-  { id: 5, name: 'Kiran Mathew', phone: '9012345678', service: 'CCTV Camera Installation', date: '2024-12-24', time: '9:00 AM – 10:00 AM', status: 'confirmed', address: 'Whitefield' },
+  { id: 1, name: 'Rahul Sharma', phone: '9876543210', service: 'CCTV Camera Installation', date: '2024-12-20', time: '10:00 AM – 11:00 AM', status: 'confirmed', address: 'Shirali' },
+  { id: 2, name: 'Priya Nair', phone: '9123456789', service: 'Laptop Service & Sales', date: '2024-12-21', time: '2:00 PM – 3:00 PM', status: 'pending', address: 'Bhatkal' },
+  { id: 3, name: 'Amit Patel', phone: '9988776655', service: 'Computer Service & Gaming PC Build', date: '2024-12-22', time: '11:00 AM – 12:00 PM', status: 'done', address: 'Mundalli' },
+  { id: 4, name: 'Sunita Reddy', phone: '9871234560', service: 'Printer Service & Cartridge Refilling', date: '2024-12-23', time: '3:00 PM – 4:00 PM', status: 'pending', address: 'Sarpankatta' },
+  { id: 5, name: 'Kiran Mathew', phone: '9012345678', service: 'CCTV Camera Installation', date: '2024-12-24', time: '9:00 AM – 10:00 AM', status: 'confirmed', address: 'Heble' },
 ];
 
 const STATUS_NEXT = { pending: 'confirmed', confirmed: 'done', done: 'pending' };
