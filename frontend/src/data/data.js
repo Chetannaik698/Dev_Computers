@@ -149,7 +149,7 @@ export const whyChooseUs = [
   {
     icon: 'fa-map-location-dot',
     title: 'Doorstep Service',
-    description: "Can't visit us? We come to you! Doorstep service available across Bengaluru.",
+    description: "Can't visit us? We come to you! Doorstep service available across Bhatkal.",
   },
 ];
 

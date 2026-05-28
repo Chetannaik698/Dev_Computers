@@ -60,7 +60,7 @@ export default function Contact() {
         <div className="container">
           <div className="section-tag fade-in">Get in Touch</div>
           <h1 className="fade-in">Contact <span className="gradient-text">Dev Computers</span></h1>
-          <p className="fade-in">We're here to help. Reach out via call, WhatsApp, or visit us at our Bengaluru store.</p>
+          <p className="fade-in">We're here to help. Reach out via call, WhatsApp, or visit us at our store.</p>
         </div>
       </div>
 

@@ -173,6 +173,23 @@ export default function Navbar() {
             {l.label}
           </NavLink>
         ))}
+        
+        <div className="mobile-drawer-auth" style={{ marginTop: '1rem', paddingTop: '1rem', borderTop: '1px solid rgba(255,255,255,0.1)' }}>
+          {user ? (
+            <>
+              <div className="nav-link" style={{ opacity: 0.7, fontSize: '0.9rem' }}>
+                <i className="fa-solid fa-user"></i> {user.name}
+              </div>
+              {isAdmin && (
+                <NavLink to="/admin" className="nav-link" onClick={close}><i className="fa-solid fa-lock"></i> Admin Panel</NavLink>
+              )}
+              <NavLink to="/logout" className="nav-link" onClick={close}><i className="fa-solid fa-sign-out-alt"></i> Logout</NavLink>
+            </>
+          ) : (
+            <NavLink to="/login" className="nav-link" onClick={close}><i className="fa-solid fa-user"></i> Login / Register</NavLink>
+          )}
+        </div>
+
         <div className="mobile-drawer-cta">
           <a href={`tel:${PHONE}`} onClick={close}
             style={{ background: '#2563eb', color: '#fff' }}>
